@@ -4,4 +4,4 @@
 - Includes personal contact of Dr. Adhikari
 - Includes a list of publications of Dr. Adhikari
 
-![preview img](/preview.png)
+![preview img](/subash.jpg)
