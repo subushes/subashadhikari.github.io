@@ -1,2 +1,2 @@
-# pramodadhikari.github.io
-This is a webpage for Pramod Adhikari, PhD.
+# subashadhikari.github.io
+This is a webpage for Subash Adhikari, a computational plasma physicist by training. 
