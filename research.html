@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research - Pramod Adhikari</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+        }
+       header {
+            background: url('images/website_background_image.jpeg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding-top: 190px;
+            padding-bottom: 10px;
+            position: relative;
+            height: 200px;
+        }
+       header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+        .social-icons {
+            margin: 50px 0;
+        }
+
+        .social-icons a {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .social-icons a {
+            color: #fff;
+            font-size: 2rem;
+            text-decoration: none;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            transform: scale(1.3);
+            color: #f8f9f9;
+        }
+         nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 10px 0; /* Increase padding for a larger bar */
+            margin: 0;
+            background-color: #2e86c1; /* Add a background color */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow for a sleek look */
+            border-radius: 8px; /* Add slight rounding to the edges */
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff; /* Change font color to white */
+            font-weight: bold;
+            font-size: 1.2rem; /* Increase font size */
+            padding: 10px 15px; /* Add padding for larger clickable area */
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #0056b3; /* Change background color on hover */
+        }
+
+        section {
+            padding: 2rem 1rem; /* Adjust side padding */
+            margin: 0 auto;
+            margin-left: 4rem; /* Increase left margin */
+            margin-right: 4rem; /* Increase right margin */
+        }
+        #plain-language-summary {
+            display: flex;
+            flex-wrap: nowrap; /* Keep elements side-by-side on large screens */
+            gap: 20px; /* Add space between the image and text */
+            align-items: flex-start; /* Align items at the top */
+            margin-top: 20px;
+        }
+        
+        #plain-language-summary img {
+            max-width: 50%; /* Limit size for larger screens */
+            height: auto;
+            flex-shrink: 0; /* Prevent the image from shrinking too much */
+        }
+        #plain-language-summary div {
+            flex: 1;
+            text-align: justify;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            header p {
+                font-size: 1rem;
+            }
+            .social-icons a {
+                font-size: 1rem;
+            }
+            nav ul {
+                flex-direction: column;
+                padding: 0;
+            }
+            nav ul li {
+                margin: 5px 0;
+            }
+            #plain-language-summary {
+                flex-direction: column; /* Stack elements vertically */
+                align-items: center;    /* Center-align content */
+            }
+            #plain-language-summary img {
+                max-width: 90%; /* Adjust the width for better fit */
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pramod Adhikari</h1>
+        <p>Ph.D. | Atmospheric & Climate Scientist</p>
+        <div class="social-icons">
+            <a href="mailto:pramod.adhikari@uwyo.edu" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/pramod-adhikari-ph-d-773a276a/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://scholar.google.com/citations?user=QLI8ZaMAAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+            <a href="https://www.researchgate.net/profile/Pramod-Adhikari" target="_blank" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
+            <a href="https://orcid.org/0000-0001-8614-2461" target="_blank" title="ORCID"><i class="fab fa-orcid"></i></a>
+            <a href="https://github.com/pramodadhikari" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+    </header>
+    <nav>
+    <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="academics.html"><i class="fas fa-graduation-cap"></i> Academics</a></li>
+        <li><a href="research.html"><i class="fas fa-flask"></i> Research</a></li>
+        <li><a href="publications.html"><i class="fas fa-book"></i> Publications</a></li>
+        <li><a href="index.html#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+    </ul>
+    </nav>
+        <!-- Research Section -->
+    <section id="research">
+        <h2>Research</h2>
+        <ul>
+            <li> Regional climate modeling and dynamically downscaling climate models</li>
+            <li> Impact of warming climate on water availability and mountain Hydroclimate </li>
+            <li> Extreme Events </li>
+            <li> Aerosol-cloud-precipitation interaction </li>
+            <li> Advanced atmospheric/climate data analysis</li>
+        </ul>
+        <h3>Post-Doctoral Research</h3>
+        <div>
+            <p>Supervised by Dr. Bart Geerts, University of Wyoming | Project: <a href = "https://www.uwyo.edu/research/centers-and-institutes/wyact/index.html" target="_blank" >Wyoming Anticipating Climate Transitions (WyACT)</a></p>
+            <ul>
+            <li> Utilized regional climate models to dynamically downscale global climate simulations, enhancing the predictive understanding of coupled human-environment impacts of climate change on water availability. </li>
+            <li> Conducted retrospective climate evaluations of dynamically downscaled GCMs (at 9km) to assess their performance and to study the applicability for regional and local studies for future climate projections for the Interior Western U.S. using state-of-the-art climate modeling techniques.</li>
+            <li> Collaborated with NCAR scientists to conduct finer resolution simulations (~1km resolution), manage computational workflows, and process large-scale climate datasets.</li>
+            <li> Assessed and projected the probability of 20-year extreme events at regional and local scales under different global warming levels (GWLs).</li>
+            <li> Contributed to developing a public-facing web portal for disseminating region-specific climate change data, addressing key challenges such as precipitation shifts, water availability, and extreme weather events across the western U.S., using dynamically downscaled CMIP6 outputs.</li>
+            <li> Worked on the Snake River Climate Assessment, focusing on analyzing and projecting potential future climate scenarios at local and regional scales. Contributed to identifying and projecting extreme events under these scenarios as part of the comprehensive climate assessment report.</li>
+            </ul>
+        </div>
+        
+        <h3>Plain Language Summary of my Ph.D. research</h3>
+        <div id="plain-language-summary">
+            <img src="images/graphical_abstract_phd.png" alt="Graphical Abstract">
+            <div>
+                <p>
+                    My PhD research explored the impacts of atmospheric aerosols (natural and anthropogenic) on precipitation and cloud dynamics over the Himalayas, emphasizing their implications for regional hydroclimate and water resources. Using satellite data, reanalysis datasets, and high-resolution (3 km) WRF-Chem simulations, we examine aerosol effects across daily to interannual scales and specific dust transport events. Results reveal that aerosols enhance cloud vertical development, convection, and precipitation in polluted conditions, significantly altering the precipitation intensity and frequency. It also modulates the freezing level height and can play a role in shifting the snowline upward and reducing the snow-to-rain ratio. Dust aerosols transported from distant sources intensify precipitation and convective processes over the Himalayas. Also, anthropogenic aerosols modulated orographic precipitation differently across elevations, amplifying heavy precipitation below 2000 m but suppressing it above. These findings highlight the critical role of aerosols in shaping the Himalayan hydrology and elevational precipitation patterns, with implications for extreme weather events and water resource management.
+                </p>
+            </div>
+        </div>
+        
+    </section>
+    <footer>
+        <p>&copy;2025 Pramod Adhikari | Hosted by GitHub Pages</p>
+    </footer>
+</body>
+</html>
